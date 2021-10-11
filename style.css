@@ -1,0 +1,143 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgba(233, 220, 220, 0.842);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.the-header-scetion{
+    height: 17vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.the-header-scetion ul{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.the-header-scetion ul li{
+    list-style-type: none;
+    justify-content: space-around;
+}
+.the-header-scetion ul li a{
+    font-size: 1.2rem;
+    margin-right: 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 1rem 3rem;
+    border: .1rem solid goldenrod;
+    border-radius: .45rem;
+    background-color: rgba(8, 70, 56, 0.664);
+    color: whitesmoke;
+}
+.the-header-scetion ul li a:hover{
+    background-color: black;
+    transition: .4s ease-in-out;
+    font-size: 1.4rem;
+}
+.the-menu-section{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+.the-main-content{
+    background: linear-gradient(rgba(0, 0, 0, 0.800),rgba(0, 0, 0, 0.807)), url(../images/k5.jpg) center/cover no-repeat;
+    background-attachment: fixed;
+}
+.menu-headline h2{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-top: 1.5rem;
+    border-bottom: goldenrod .13rem solid;
+    border-bottom-width: .3rem;
+    display: inline-block;
+    margin: 0 auto;
+    padding-top: 1rem;
+    
+}
+.menu-headline h2:hover{
+background-color: rgba(0, 0, 0, 0.527);
+padding: 0rem 8rem;
+font-size: 3rem;
+transition: .8s ease-in-out ;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: mediumseagreen;
+border-bottom-right-radius: 2rem;
+border-top-left-radius: 4rem;
+padding-top: .2rem;
+}
+.menu-headline{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+   
+}
+.the-menu-content img{
+    height: 14rem;
+    width: 20rem;
+    border: .2rem solid goldenrod;
+    border-top-left-radius: 1.5rem;
+    border-bottom-right-radius: .3rem;
+}
+.the-menu-content img:hover{
+    width: 25rem;
+    cursor: pointer;
+    transition: ease-in-out .6s;
+    border: .3rem solid black;
+    height: 17rem;
+}
+.the-menu-content{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+}
+.item-name-price{
+    display: flex;
+    margin-top: .8rem;
+    text-transform:capitalize;
+    border-bottom: .12rem solid gray;
+    padding-bottom: .2rem;
+    font-size: 1.1rem;
+}
+.price-right{
+    margin-left: 6rem;
+    color: goldenrod;
+}
+
+.menu-description{
+    width: 20rem;
+    margin-top: .6rem;
+}
+.btn-container{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+ .filter-btn{
+    padding: .6rem 2rem;
+    margin-left: 3rem;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.198);
+    outline: 0;
+    border: none;
+    border: .2rem solid goldenrod;
+    color: white;
+    border-radius: .4rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    
+}
+.filter-btn:hover{
+    background-color: rgba(82, 34, 17, 0.719);
+    font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition:ease-in-out .4s;
+    border: black .37rem solid;
+}
